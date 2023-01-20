@@ -5,7 +5,11 @@ img {
     height: 10%;
     float: left;
 }
-
-
+.header__nav{
+    display: grid;
+    height: auto;
+    grid-auto-flow: column;
+    grid-gap: 20 px;
+}
 
 

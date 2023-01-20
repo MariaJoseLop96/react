@@ -16,7 +16,7 @@ const Counter = () => {
     <div>
   <Button onClick={ () => handleAdd ()}>  sumar </Button>
   <span> {contador}</span>
-  <Button onClick={ () => handleSubstract ()}>  restar </Button></div>)
+  <Button onClick={ () => handleSubstract ()}>  restar rrr </Button></div>)
 
 };
 
