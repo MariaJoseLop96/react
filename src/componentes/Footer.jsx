@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div> soy un footer</div>
+    <div className='footer'> Pagina para curso React</div>
   )
 }
 
