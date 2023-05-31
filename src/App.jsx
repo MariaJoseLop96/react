@@ -7,6 +7,9 @@ import {ItemList} from './componentes/ItemList'
 import Button from './componentes/Button';
 import Counter from './componentes/Counter';
 import Footer from './componentes/Footer';
+import Tarjeta from './componentes/Tarjeta';
+import Nav from './componentes/Nav';
+
 
 
 function App() {
@@ -27,10 +30,12 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <Nav />
 
       <ItemList greeting = "desafio 1" />
       <div>  <Counter /> </div>
       <Footer/>
+    
       
     </div>
     
